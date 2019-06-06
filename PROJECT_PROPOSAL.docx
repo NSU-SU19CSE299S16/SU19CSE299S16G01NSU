@@ -40,9 +40,17 @@ solve this problem we have come up with a solution to create a blogging website 
  We will use Django framework to develop this project.
 
  Features:
-These features will be available on the webapp: 
+These features will be available on the webapp:
 	Special kind authentication
 	Two kind of users
 	Health related post menu
 	Q/A related post menu
 	Nearest hospitals list
+
+Future business plan:
+In future we want to develop this app with some more features. We will add some verified doctors to our webapp who will be available 24/7 to
+answer any kind of health related issues or can help with any emergency situation instantly. We will also add a feature like online appointment,
+ where users can set their appointment with doctors via online. We will an option like anonymous post, where  premium users can post about their
+  problems anonymously without any hesitation. But to use these feature we will cost them in a yearly basis like 300/= TAKA per year. 
+
+We will also add online medicine shopping option where they can buy some common medicines (which do not need prescription to buy) from our webapp.
