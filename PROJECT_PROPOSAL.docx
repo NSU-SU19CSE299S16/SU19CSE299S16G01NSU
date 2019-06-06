@@ -38,3 +38,11 @@ solve this problem we have come up with a solution to create a blogging website 
 
  Framework:
  We will use Django framework to develop this project.
+
+ Features:
+These features will be available on the webapp: 
+	Special kind authentication
+	Two kind of users
+	Health related post menu
+	Q/A related post menu
+	Nearest hospitals list
