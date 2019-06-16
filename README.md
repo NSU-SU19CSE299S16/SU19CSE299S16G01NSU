@@ -1,11 +1,11 @@
 ![nsu](https://imgur.com/a/dMQSR2J)
 
-#North South University
+# North South University
 ##  Department of Electrical and Computer Engineering
 
 ##  Project Proposal
 
-#Project Name : Healthy NSU
+# Project Name : Healthy NSU
 
 Course : CSE 299
 Semester : Summer2019
