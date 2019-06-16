@@ -7,25 +7,25 @@
 
 ## Project Name : Healthy NSU
 
-Course : CSE 299
+**Course:** CSE 299
 
-Semester : Summer2019
+**Semester:** Summer2019
 
-Group : 1
+**Group:** 01
 
-Name : Monsur Hillas
+**Name:** Monsur Hillas
 
-ID : 1721911642
+**ID:** 1721911642
 
-Faculty : Shaikh Shawon Arefin Shimon(SAS3)
+**Faculty:** Shaikh Shawon Arefin Shimon(SAS3)
 
-Section : 16
+**Section:** 16
 
-Email : monsur.hillas@northsouth.edu
+**Email:** monsur.hillas@northsouth.edu
 
-Github : [SU19CSE299S16G01NSU](https://github.com/monsurhillas007/SU19CSE299S16G01NSU)
+**Github Repository:** [SU19CSE299S16G01NSU](https://github.com/monsurhillas007/SU19CSE299S16G01NSU)
 
-Date : 10/06/2019
+**Date Prepared:** 10/06/2019
 
 
 
