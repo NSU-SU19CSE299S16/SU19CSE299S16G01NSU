@@ -8,7 +8,8 @@
 # Project Name : Healthy NSU
 
 Course : CSE 299
-Semester : Summer2019
+
+Semester : Summer2019.
 Group : 1
 Name : Monsur Hillas
 ID : 1721911642
