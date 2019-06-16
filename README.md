@@ -1,4 +1,4 @@
-![nsu](https://imgur.com/a/XQZkipM)
+![nsu](https://github.com/monsurhillas007/SU19CSE299S16G01NSU/blob/master/MOCKUP/logo/nsulogo.jpeg)
 
 # North South University
 ##  Department of Electrical and Computer Engineering
