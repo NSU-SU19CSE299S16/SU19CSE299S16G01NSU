@@ -1,7 +1,4 @@
-
-
-
-                                                                  ![nsu logo](https://ibb.co/tZVR3Tx)
+![nsu logo](https://ibb.co/tZVR3Tx)
 
                                                                     #North South University
                                                       ##  Department of Electrical and Computer Engineering
