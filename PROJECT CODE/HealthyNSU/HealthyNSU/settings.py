@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'about.apps.AboutConfig',
     'healthsuggest.apps.HealthsuggestConfig',
     'healthask.apps.HealthaskConfig',
+    'nearhospital.apps.NearhospitalConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
