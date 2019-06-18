@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'home.apps.HomeConfig',
     'about.apps.AboutConfig',
     'healthsuggest.apps.HealthsuggestConfig',
+    'healthask.apps.HealthaskConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
