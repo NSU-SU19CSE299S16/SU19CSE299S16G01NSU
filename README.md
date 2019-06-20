@@ -59,6 +59,7 @@ For this project we want to create a web based app where people can log into tha
 **Features:**
 
 These features will be available on the webapp:
+
     - Special kind authentication
     - kind of users
     - Health related post menu
