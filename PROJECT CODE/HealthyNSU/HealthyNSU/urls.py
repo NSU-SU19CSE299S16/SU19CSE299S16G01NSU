@@ -22,5 +22,4 @@ urlpatterns = [
     path('healthsuggest/', include('healthsuggest.urls')),
     path('healthask/', include('healthask.urls')),
     path('nearhospital/',include('nearhospital.urls')),
-    path('about/' ,include('about.urls')),
 ]

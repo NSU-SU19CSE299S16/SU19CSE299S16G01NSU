@@ -32,7 +32,6 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'home.apps.HomeConfig',
-    'about.apps.AboutConfig',
     'healthsuggest.apps.HealthsuggestConfig',
     'healthask.apps.HealthaskConfig',
     'nearhospital.apps.NearhospitalConfig',
