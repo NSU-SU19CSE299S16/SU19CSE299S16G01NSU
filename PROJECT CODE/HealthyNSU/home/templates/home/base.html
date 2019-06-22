@@ -27,11 +27,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarToggle">
           <div class="navbar-nav mr-auto">
-            <a class="nav-item nav-link" href="/">Home</a>
-            <a class="nav-item nav-link" href="/about">About</a>
+            <a class="nav-item nav-link" href="{% url 'HealthyNSU-home' %}">Home</a>
+            <a class="nav-item nav-link" href="{% url 'HealthyNSU-about' %}">About</a>
 
-            <a class="nav-item nav-link" href="../healthsuggest/suggest">Health Suggestion</a>
-            <a class="nav-item nav-link" href="../healthsuggest/ask">Health ask</a>
+            <a class="nav-item nav-link" href="{% url 'HealthyNSU-healthsuggest' %}">Health Suggestion</a>
+            <a class="nav-item nav-link" href="{% url 'HealthyNSU-healthsuggest' %}">Health ask</a>
           </div>
           <!-- Navbar Right Side -->
           <div class="navbar-nav">
