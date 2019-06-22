@@ -2,12 +2,23 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>health suggest</title>
+    {% if title %}
+    <title>Healthy NSU - {{title}}</title>
+    {% else %}
+    <title>Healthy NSU</title>
+    {% endif %}
   </head>
   <body>
+
+    {% for post in posts %}
+
     <h1>
-      This section will be used for health suggestion of the project.
-      
+      {{post.title}}
     </h1>
+    <p>{{post.author}} on {{post.date_posted}}</p>
+    <p>{{post.content}}</p>
+    {% endfor %}
+
+
   </body>
 </html>
