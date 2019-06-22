@@ -33,7 +33,6 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'home.apps.HomeConfig',
     'healthsuggest.apps.HealthsuggestConfig',
-    'healthask.apps.HealthaskConfig',
     'nearhospital.apps.NearhospitalConfig',
     'django.contrib.admin',
     'django.contrib.auth',

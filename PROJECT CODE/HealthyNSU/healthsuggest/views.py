@@ -21,6 +21,12 @@ def home(request):
     }
     return render(request, 'healthsuggest/healthsuggest.html',context)
 
+def healthask(request):
+    context={
+    'posts' : posts
+    }
+    return render(request,'healthsuggest/healthask.html',context)
+
 
 
 # Create your views here.

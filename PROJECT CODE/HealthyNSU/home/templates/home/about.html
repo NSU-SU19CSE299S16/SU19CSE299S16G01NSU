@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    {% if title %}
-    <title>HealthyNSU-{{ title }}</title>
-    {% else %}
-    <title>HealthyNSU</title>
-    {% endif %}
-  </head>
-  <body>
-    <p>This section is for about section</p>
-  </body>
-</html>
+{% extends "home/base.html" %}
+{% block content%}
+    <p>This is for about usage</p>
+
+{% endblock content %}
