@@ -1,29 +1,17 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-posts = [
-    {
-        'author' : 'Monsur',
-        'title' : 'FirstPost',
-        'content' : 'First post content',
-        'date_posted' : 'June 22, 2019'
-    },
-    {
-        'author' : 'Hillas',
-        'title' : 'SecondPost',
-        'content' : 'Second post content',
-        'date_posted' : 'June 23, 2019'
-    }
-        ]
+from .models import Post
+
 
 def home(request):
     context ={
-    'posts' : posts
+    'posts' : Post.objects.all()
     }
     return render(request, 'healthsuggest/healthsuggest.html',context)
 
 def healthask(request):
     context={
-    'posts' : posts
+    'posts' : Post.objects.all()
     }
     return render(request,'healthsuggest/healthask.html',context)
 
