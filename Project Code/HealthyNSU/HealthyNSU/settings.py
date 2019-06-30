@@ -126,3 +126,5 @@ STATIC_URL = '/static/'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 LOGIN_REDIRECT_URL ='HealthyNSU-healthsuggest'
+
+LOGIN_URL = 'login'
