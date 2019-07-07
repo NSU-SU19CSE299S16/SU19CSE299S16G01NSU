@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from .models import Post
-from django.views.generic import ListView, DetailView
+from django.views.generic import (ListView,
+                                DetailView,
+                                CreateView)
 from django.contrib.auth.decorators import login_required
 
 @login_required
@@ -10,7 +12,7 @@ def home(request):
     }
     return render(request, 'healthsuggest/healthsuggest.html',context)
 
-
+#For healthsuggest Section
 class PostListViewS(ListView):
     model = Post
     template_name = 'healthsuggest/healthsuggest.html'
@@ -20,6 +22,19 @@ class PostListViewS(ListView):
 class PostDetailViewS(DetailView):
     model = Post
 
+class PostCreateViewS(CreateView):
+    model = Post
+    fields = ['title','content']
+
+    def form_valid(self,form):
+        form.instance.author = self.request.user
+        return super().form_valid(form)
+
+#-----------------------------------------------------
+#-----------------------------------------------------
+
+
+#for HealthAsk section
 class PostDetailViewA(DetailView):
     model = Post
 
@@ -37,5 +52,5 @@ class PostListViewA(ListView):
     context_object_name = 'posts'
     ordering =['-date_posted']
 
-
+#---------------------------------------------------------
 # Create your views here.
