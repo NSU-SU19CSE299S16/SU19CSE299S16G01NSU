@@ -3,9 +3,11 @@ from .models import Post
 from django.views.generic import (ListView,
                                 DetailView,
                                 CreateView,
-                                UpdateView)
+                                UpdateView,
+                                DeleteView)
 from django.contrib.auth.decorators import login_required
-from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.mixins import LoginRequiredMixin,UserPassesTestMixin
+
 
 @login_required
 def home(request):
@@ -32,13 +34,28 @@ class PostCreateViewS(LoginRequiredMixin, CreateView):
         form.instance.author = self.request.user
         return super().form_valid(form)
 
-class PostUpdateViewS(LoginRequiredMixin, UpdateView):
+class PostUpdateViewS(LoginRequiredMixin,UserPassesTestMixin, UpdateView):
     model = Post
     fields = ['title','content']
 
     def form_valid(self,form):
         form.instance.author = self.request.user
         return super().form_valid(form)
+
+    def test_func(self):
+        post = self.get_object()
+        if self.request.user == post.author:
+            return True
+        return False
+
+class PostDeleteViewS(LoginRequiredMixin,UserPassesTestMixin, DeleteView):
+    model = Post
+    success_url = '/healthsuggest/suggest'
+    def test_func(self):
+        post = self.get_object()
+        if self.request.user == post.author:
+            return True
+        return False
 
 #-----------------------------------------------------
 #-----------------------------------------------------
@@ -70,5 +87,28 @@ class PostCreateViewA(LoginRequiredMixin, CreateView):
         form.instance.author = self.request.user
         return super().form_valid(form)
 
+
+class PostUpdateViewA(LoginRequiredMixin,UserPassesTestMixin, UpdateView):
+    model = Post
+    fields = ['title','content']
+
+    def form_valid(self,form):
+        form.instance.author = self.request.user
+        return super().form_valid(form)
+
+    def test_func(self):
+        post = self.get_object()
+        if self.request.user == post.author:
+            return True
+        return False
+
+class PostDeleteViewA(LoginRequiredMixin,UserPassesTestMixin, DeleteView):
+    model = Post
+    success_url = '/healthsuggest/ask'
+    def test_func(self):
+        post = self.get_object()
+        if self.request.user == post.author:
+            return True
+        return False
 #---------------------------------------------------------
 # Create your views here.
