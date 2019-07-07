@@ -7,10 +7,10 @@
   <div class="media-body">
     <div class="article-metadata">
       <!-- <img class ="img-thumbnail rounded-circle   account-img"  alt="userimage.jpg" src="{{ post.author.profile.image.url }}"> -->
-      <a class="mr-2 h2 text-capitalize" href="#">{{ post.author }}</a>
+      <a class="mr-2  text-capitalize" href="#">{{ post.author }}</a>
       <small class="text-muted">{{ post.date_posted|date:"F d,Y" }}</small>
     </div>
-    <h2><a class="article-title text-capitalize" href="#">{{ post.title }}</a></h2>
+    <h2><a class="article-title text-capitalize" href="{% url 'post-detailsug' post.id %}">{{ post.title }}</a></h2>
     <p class="article-content">{{ post.content }}</p>
   </div>
 </article>
