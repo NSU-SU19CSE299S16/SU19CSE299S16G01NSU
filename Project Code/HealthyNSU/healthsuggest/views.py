@@ -19,7 +19,9 @@ class PostListViewS(ListView):
 
 class PostDetailViewS(DetailView):
     model = Post
-    
+
+class PostDetailViewA(DetailView):
+    model = Post
 
 
 @login_required
