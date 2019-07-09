@@ -22,6 +22,7 @@ class PostListViewS(LoginRequiredMixin, ListView):
     template_name = 'healthsuggest/healthsuggest.html'
     context_object_name = 'posts'
     ordering = ['-date_posted']
+    paginate_by = 3
 
 class PostDetailViewS(LoginRequiredMixin, DetailView):
     model = Post
