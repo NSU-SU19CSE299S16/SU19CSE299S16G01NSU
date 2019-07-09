@@ -1,5 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render,get_object_or_404
 from .models import Post
+from django.contrib.auth.models import User
 from django.views.generic import (ListView,
                                 DetailView,
                                 CreateView,
@@ -23,6 +24,21 @@ class PostListViewS(LoginRequiredMixin, ListView):
     context_object_name = 'posts'
     ordering = ['-date_posted']
     paginate_by = 3
+
+
+class UserPostListViewS(LoginRequiredMixin, ListView):
+    model = Post
+    template_name = 'healthsuggest/user_posts.html'
+    context_object_name = 'posts'
+    paginate_by = 3
+
+    def get_query_set(self):
+        user = get_object_or_404(User,username = self.kwargs.get('username'))
+        return Post.objects.filter(author = user).order_by('-date-posted')
+
+
+
+
 
 class PostDetailViewS(LoginRequiredMixin, DetailView):
     model = Post

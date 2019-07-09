@@ -7,7 +7,7 @@
   <div class="media-body">
     <div class="article-metadata">
       <!-- <img class ="img-thumbnail rounded-circle   account-img"  alt="userimage.jpg" src="{{ post.author.profile.image.url }}"> -->
-      <a class="mr-2 text-capitalize" href="#">{{ object.author }}</a>
+      <a class="mr-2 text-capitalize" href="{% url 'user-posts' object.author.username %}">{{ object.author }}</a>
       <small class="text-muted">{{ object.date_posted|date:"F d,Y" }}</small>
       {% if object.author == user %}
       <div >
