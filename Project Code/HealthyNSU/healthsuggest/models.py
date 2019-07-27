@@ -14,4 +14,16 @@ class Post(models.Model):
     def get_absolute_url(self):
         return reverse('post-detailsug', kwargs ={'pk': self.pk})
 
+
+class Comment(models.Model):
+	Post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name='comments')
+	Name = models.CharField(max_length=100)
+	Email = models.EmailField(max_length=100)
+	Body = models.TextField()
+	Created = models.DateTimeField(default=timezone.now)
+	Active = models.BooleanField(default=True)
+	Parent = models.ForeignKey('self',on_delete=models.CASCADE,null=True,blank=True,related_name='replies')
+
+
+
 # Create your models here.
