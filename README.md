@@ -1,4 +1,6 @@
-![nsu](https://github.com/monsurhillas007/SU19CSE299S16G01NSU/blob/master/Mockup/logo/nsulogo.jpeg)
+<p align="center">
+<img src="https://github.com/monsurhillas007/SU19CSE299S16G01NSU/blob/master/Mockup/logo/nsulogo.jpeg">
+
 
 # North South University
 ##  Department of Electrical and Computer Engineering
@@ -26,6 +28,7 @@
 **Github Repository:** [SU19CSE299S16G01NSU](https://github.com/monsurhillas007/SU19CSE299S16G01NSU)
 
 **Date Prepared:** 10/06/2019
+</p>
 
 
 
