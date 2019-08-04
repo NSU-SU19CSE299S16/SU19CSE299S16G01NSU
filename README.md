@@ -2,8 +2,8 @@
 <img src="https://github.com/monsurhillas007/SU19CSE299S16G01NSU/blob/master/Mockup/logo/nsulogo.jpeg">
 </p>
 <div align="center">
-<h2> North South University </h5>
-<h3>  Department of Electrical and Computer Engineering </h3>
+# North South University </h5>
+##  Department of Electrical and Computer Engineering </h3>
 
 ##  Project Proposal
 
