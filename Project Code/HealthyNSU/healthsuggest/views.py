@@ -95,6 +95,7 @@ class PostListViewA(ListView):
     template_name = 'healthsuggest/healthask.html'
     context_object_name = 'posts'
     ordering =['-date_posted']
+    paginate_by = 4
 
 class PostCreateViewA(LoginRequiredMixin, CreateView):
     model = Post
