@@ -80,9 +80,13 @@ I have worked in an incremental development way where I will specifically work o
 To track my codes and to make much efficient code I have used a version control tool called GitHub. Where I created a repository and I constantly worked on that repository committed my codes there and whenever I needed to check my codes I can efficiently check those code on GitHub. On every issues a branch has been created and for that particular issue that branch has been used. Whenever that issue has been closed the branch has been merged with the master branch and that branch has been deleted.
 
 This was a single person project but to keep communication with Groupmate I have used slack where I have been assigned a secret channel and on that channel I constantly gave update about my project development twice a week.
-PROJECT FEATURES
+
+
+**PROJECT FEATURES**
+
 
 As this is a blog based web app so this project contains some basic Feature of a blogging website. Such as user registration user login posting blog etc.
+
 
 **Home page:** 
 
@@ -116,16 +120,28 @@ There are two sections in the website, one is health suggestion part and another
 But healthask part is yet to be completed.
 
 
+
 **Profile**
 
 There is an profile for individual user a user can change his username or email and can set profile picture for that profile using profile sectoin 
 
 [Picture here]
 
+
+
 **Nearest Hospitals**
 
 In the navigation bar another link is there called nearest hospitals where all the nearest hospitals info are given their address and phone number is given on a table in this section 
 
 [picture here]
+
+
+**Future business plan:**	
+
+
+ In future we want to develop this app with some more features. We will add some verified doctors to our webapp who will be available 24/7 to answer any kind of health related issues or can help with any emergency situation instantly. We will also add a feature like online appointment, where users can set their appointment with doctors via online. We will an option like anonymous post, where premium users can post about their problems anonymously without any hesitation. But to use these feature we will cost them in a yearly basis like 300/= taka every year and they have to pay this amount via bkash/Rocket/Ucash to have a premium account. Procedure for giving the yearly fees will also be given on the website with clear instructions.
+ 
+
+We will also add online medicine shopping option where they can buy some common medicines (which do not need prescription to buy) from our webapp.
 
 
