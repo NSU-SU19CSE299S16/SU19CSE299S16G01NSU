@@ -85,10 +85,47 @@ PROJECT FEATURES
 As this is a blog based web app so this project contains some basic Feature of a blogging website. Such as user registration user login posting blog etc.
 
 **Home page:** 
+
 A brief home page has been added to the website. Whenever a user enters into the website he can see a decent and user friendly home page where he can use some options such as about login registration etc. also some information and key feature of the website is given there.
 
 [Picture Here]
 
 **User Registration:**
+
 If a user clicks on register link on the navigation bar it will redirect him to a form where he can be registered as a member of that website by providing his username, email, nsuid and password [a strong password is needed to complete registration, need to contain both character and number]
+
+[Picture here]
+
+**Login form:**
+Whenever a user completes registration he can successfully login now, he can log in to his id just by using his email address and password which he used to register in the website.
+There is also an option ‘Forget Password’ If a user forgets his password he can click the forget password link and by providing the same mail an reset password link will be sent to his email by which he can recover his id again by a new password .
+
+[Pictures here]
+
+
+**Post creation:**
+
+After logging in a user can create a post in that website. If he click on ‘Click Website’ a new form will appear where he can give the title and post content and post that to the website. A user can also edit post or delete post if he wants.
+
+[Picture here]
+
+**HealthSuggestion & HealthAsk:**
+
+There are two sections in the website, one is health suggestion part and another is health ask part . health suggestion part is totally completed a user can post anything he wants as a health suggestion
+
+But healthask part is yet to be completed.
+
+
+**Profile**
+
+There is an profile for individual user a user can change his username or email and can set profile picture for that profile using profile sectoin 
+
+[Picture here]
+
+**Nearest Hospitals**
+
+In the navigation bar another link is there called nearest hospitals where all the nearest hospitals info are given their address and phone number is given on a table in this section 
+
+[picture here]
+
 
