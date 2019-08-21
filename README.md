@@ -30,8 +30,6 @@
 
 **Section:** 16
 
-**Group:** 01
-
 **Email:** monsur.hillas@northsouth.edu
 
 **Github Repository:** [SU19CSE299S16G01NSU](https://github.com/monsurhillas007/SU19CSE299S16G01NSU)
