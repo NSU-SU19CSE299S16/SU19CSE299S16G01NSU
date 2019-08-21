@@ -145,3 +145,7 @@ In the navigation bar another link is there called nearest hospitals where all t
 We will also add online medicine shopping option where they can buy some common medicines (which do not need prescription to buy) from our webapp.
 
 
+**Conclusion:**
+
+As this project was all about creating a webapp and to build awareness among nsuers about health issues. some of the core features has been added to this project so this project . though some features is yet to developed . but this project can certainly be used to develop further and we can go far away by developing it. 
+
