@@ -44,7 +44,7 @@
 **ACKNOWLEDGEMENT**
 
 Dear Sir,
-I am delighted to present to you “HealthyNSU”. The report includes procedures starting from Project proposal, analysis, approach, planning, integration, communication, cost estimation, time estimation, slack and other important elements. Your instructions has been strictly followed in every step and helped to complete the report. You have helped me a lot to complete this project on my own.
+I am delighted to present to you “HealthyNSU”. you have been throughly helped thoughout the semester to develop this project . Your instructions has been strictly followed in every step and helped to complete the report. You have helped me a lot to complete this project on my own.I thank you very much for guiding me on this project
 
 Yours Sincerely, 
 
@@ -101,6 +101,7 @@ If a user clicks on register link on the navigation bar it will redirect him to 
 [Picture here]
 
 **Login form:**
+
 Whenever a user completes registration he can successfully login now, he can log in to his id just by using his email address and password which he used to register in the website.
 There is also an option ‘Forget Password’ If a user forgets his password he can click the forget password link and by providing the same mail an reset password link will be sent to his email by which he can recover his id again by a new password .
 
