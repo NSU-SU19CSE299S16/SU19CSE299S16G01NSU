@@ -8,7 +8,7 @@
 # North South University </h5>
 ##  Department of Electrical and Computer Engineering </h3>
 
-##  Project Proposal
+##  Project Report
 
 ## Project Name : Healthy NSU
 
@@ -36,7 +36,7 @@
 
 **Github Repository:** [SU19CSE299S16G01NSU](https://github.com/monsurhillas007/SU19CSE299S16G01NSU)
 
-**Date Prepared:** 10/06/2019
+**Date Prepared:** 21/08/2019
 </div>
 
 
@@ -47,8 +47,11 @@ Dear Sir,
 I am delighted to present to you “HealthyNSU”. The report includes procedures starting from Project proposal, analysis, approach, planning, integration, communication, cost estimation, time estimation, slack and other important elements. Your instructions has been strictly followed in every step and helped to complete the report. You have helped me a lot to complete this project on my own.
 
 Yours Sincerely, 
+
 Monsur Hillas
+
 Group: 01
+
 ID: 1721911042 
 
 
@@ -68,8 +71,9 @@ Healthy NSU is a blogging site which is created with a purpose to build a strong
 **Methodology**
 
 As this is a web based project, I have selected a frame work for the backend development, and for frontend I have used bootstrap and JavaScript. 
--Frontend: - JavaScript, CSS, HTML, Bootstrap
--Backend: - Django
+
+  - Frontend: - JavaScript, CSS, HTML, Bootstrap
+  - Backend: - Django
 
 I have worked in an incremental development way where I will specifically work on different issues on every week and solve those issues and developed the website step by step, to track those issues I have used a board on GitHub where I can address every issues I work on and move them from to-do to doing and done. Every time I started solving an issue I moved and card from to-do to doing, and when I am done solving the issue I moved that card to done and closed that issue.
 
