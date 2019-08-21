@@ -16,15 +16,21 @@
 
 **Semester:** Summer2019
 
-**Group:** 01
+# Submitted to
+
+**Faculty:** Shaikh Shawon Arefin Shimon(SAS3)
+
+# Submitted by
 
 **Name:** Monsur Hillas
 
 **ID:** 1721911642
 
-**Faculty:** Shaikh Shawon Arefin Shimon(SAS3)
+**Group:** 01
 
 **Section:** 16
+
+**Group:** 01
 
 **Email:** monsur.hillas@northsouth.edu
 
@@ -35,45 +41,50 @@
 
 
 
-**Introduction:**
+**ACKNOWLEDGEMENT**
 
-Healthy NSU is a blogging site which is created with a purpose to build a strong awareness about health problems for this university. This is a website where both students and teachers can ask health related problem without any hesitation, or they can also suggest any solution to a health related problem. As day by day the number of patients in our country is increasing so we want to limit this number as few as we can.  Healthy NSU will be able to help students and teachers to maintain a healthy life and will get them safe from any health related issues.  None the less, this website will only be available to the students of North South University so a clear communication between the university people will be created by this platform.  
+Dear Sir,
+I am delighted to present to you “HealthyNSU”. The report includes procedures starting from Project proposal, analysis, approach, planning, integration, communication, cost estimation, time estimation, slack and other important elements. Your instructions has been strictly followed in every step and helped to complete the report. You have helped me a lot to complete this project on my own.
 
-
-**Problem statement:**
-
-Bangladesh is a developing country; it is also a country of middle income. But as we are developing we need to pay attention to our people’s health issues.  Many people of Bangladesh do not have the common idea about how to lead a healthy life and maintain their health and this is a big problem for our country as because of awareness we often get sick by various diseases, we cannot create awareness to the whole country at a time, we need to create awareness place by place gradually, so people can understand the important of being healthy and they can maintain a healthy life. And to solve this problem we have come up with a solution to create a blogging website where all kind of health related post will be approved and people can ask any health related questions in that platform, we wanted to combine a specific university peoples into a unique platform that’s why we want to create this blogging website so that people of this community can have a better understanding about their health.
-
-
-
+Yours Sincerely, 
+Monsur Hillas
+Group: 01
+ID: 1721911042 
 
 
-**Project Idea:**
 
-The main idea of this project is to build a website where various kinds of health related posts can be given. At first there will be two type of users i) one who can only see post and comment suggestions ii) one who can both  post and comment on the site. As this project is only for the students of North south University so in the authentication system people without having a nsu email cannot open an account. Also the users who can post about health related issues will be needed to verify themselves first that they can actually give suggestions. In the website there will be two part, one part is for various health related suggestion posts, and another one will be for health related problems solution seeking part where people can ask any medical help via post(ex: asking a famous doctors number, which doctor is good for a specific disease ETC.)
+**Problem Statement**
 
-Also the website will have another part called nearest hospitals, where all the information about the nearest and popular hospital among Dhaka city will be given. This whole project will be created using Django framework and front pages will be created using HTML, CSS, Bootstrap.
+Bangladesh is a developing country; it is also a country of middle income. But as we are developing we need to pay attention to our people’s health issues. Many people of Bangladesh do not have the common idea about how to lead a healthy life and maintain their health and this is a big problem for our country as because of awareness we often get sick by various diseases, we cannot create awareness to the whole country at a time, we need to create awareness place by place gradually, so people can understand the important of being healthy and they can maintain a healthy life. And to solve this problem we have come up with a solution to create a blogging website where all kind of health related post will be approved and people can ask any health related questions in that platform, we wanted to combine a specific university peoples into a unique platform that’s why we want to create this blogging website so that people of this community can have a better understanding about their health.
 
-Type of platform:
-For this project we want to create a web based app where people can log into that app and use that web app as their need.
 
-**Technology:**
 
-    - Frontend: HTML, CSS, BOOTSTRAP
-    - Backend: DJANGO
 
-**Features:**
 
-These features will be available on the webapp:
+**INTRODUCTION**
 
-    - Special kind authentication
-    - kind of users
-    - Health related post menu
-    - Q/A related post menu
-    - Nearest hospitals list
+Healthy NSU is a blogging site which is created with a purpose to build a strong awareness about health problems for this university. This is a website where both students and teachers can ask health related problem without any hesitation, or they can also suggest any solution to a health related problem. As day by day the number of patients in our country is increasing so we want to limit this number as few as we can. Healthy NSU will be able to help students and teachers to maintain a healthy life and will get them safe from any health related issues. None the less, this website will only be available to the students of North South University so a clear communication between the university people will be created by this platform.
 
-**Future business plan:**
+**Methodology**
 
-In future we want to develop this app with some more features. We will add some verified doctors to our webapp who will be available 24/7 to answer any kind of health related issues or can help with any emergency situation instantly. We will also add a feature like online appointment, where users can set their appointment with doctors via online. We will an option like anonymous post, where premium users can post about their problems anonymously without any hesitation. But to use these feature we will cost them in a yearly basis like 300/= taka every year and they have to pay this amount via bkash/Rocket/Ucash to have a premium account. Procedure for giving the yearly fees will also be given on the website with clear instructions.
+As this is a web based project, I have selected a frame work for the backend development, and for frontend I have used bootstrap and JavaScript. 
+-Frontend: - JavaScript, CSS, HTML, Bootstrap
+-Backend: - Django
 
-We will also add online medicine shopping option where they can buy some common medicines (which do not need prescription to buy) from our webapp.
+I have worked in an incremental development way where I will specifically work on different issues on every week and solve those issues and developed the website step by step, to track those issues I have used a board on GitHub where I can address every issues I work on and move them from to-do to doing and done. Every time I started solving an issue I moved and card from to-do to doing, and when I am done solving the issue I moved that card to done and closed that issue.
+
+To track my codes and to make much efficient code I have used a version control tool called GitHub. Where I created a repository and I constantly worked on that repository committed my codes there and whenever I needed to check my codes I can efficiently check those code on GitHub. On every issues a branch has been created and for that particular issue that branch has been used. Whenever that issue has been closed the branch has been merged with the master branch and that branch has been deleted.
+
+This was a single person project but to keep communication with Groupmate I have used slack where I have been assigned a secret channel and on that channel I constantly gave update about my project development twice a week.
+PROJECT FEATURES
+
+As this is a blog based web app so this project contains some basic Feature of a blogging website. Such as user registration user login posting blog etc.
+
+**Home page:** 
+A brief home page has been added to the website. Whenever a user enters into the website he can see a decent and user friendly home page where he can use some options such as about login registration etc. also some information and key feature of the website is given there.
+
+[Picture Here]
+
+**User Registration:**
+If a user clicks on register link on the navigation bar it will redirect him to a form where he can be registered as a member of that website by providing his username, email, nsuid and password [a strong password is needed to complete registration, need to contain both character and number]
+
